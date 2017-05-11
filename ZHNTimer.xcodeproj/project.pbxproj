@@ -15,6 +15,8 @@
 		CD862AB91EC434B00075388D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD862AB71EC434B00075388D /* LaunchScreen.storyboard */; };
 		CD862AC41EC434B00075388D /* ZHNTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD862AC31EC434B00075388D /* ZHNTimerTests.m */; };
 		CD862ACF1EC434B00075388D /* ZHNTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD862ACE1EC434B00075388D /* ZHNTimerUITests.m */; };
+		CD862ADE1EC436020075388D /* ZHNTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD862ADD1EC436020075388D /* ZHNTimer.m */; };
+		CD862AE41EC445E00075388D /* tempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD862AE31EC445E00075388D /* tempViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		CD862ACA1EC434B00075388D /* ZHNTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD862ACE1EC434B00075388D /* ZHNTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNTimerUITests.m; sourceTree = "<group>"; };
 		CD862AD01EC434B00075388D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD862ADC1EC436020075388D /* ZHNTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNTimer.h; sourceTree = "<group>"; };
+		CD862ADD1EC436020075388D /* ZHNTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNTimer.m; sourceTree = "<group>"; };
+		CD862AE21EC445E00075388D /* tempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tempViewController.h; sourceTree = "<group>"; };
+		CD862AE31EC445E00075388D /* tempViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tempViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +109,12 @@
 			children = (
 				CD862AAC1EC434B00075388D /* AppDelegate.h */,
 				CD862AAD1EC434B00075388D /* AppDelegate.m */,
+				CD862AE21EC445E00075388D /* tempViewController.h */,
+				CD862AE31EC445E00075388D /* tempViewController.m */,
 				CD862AAF1EC434B00075388D /* ViewController.h */,
 				CD862AB01EC434B00075388D /* ViewController.m */,
+				CD862ADC1EC436020075388D /* ZHNTimer.h */,
+				CD862ADD1EC436020075388D /* ZHNTimer.m */,
 				CD862AB21EC434B00075388D /* Main.storyboard */,
 				CD862AB51EC434B00075388D /* Assets.xcassets */,
 				CD862AB71EC434B00075388D /* LaunchScreen.storyboard */,
@@ -273,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD862AE41EC445E00075388D /* tempViewController.m in Sources */,
 				CD862AB11EC434B00075388D /* ViewController.m in Sources */,
 				CD862AAE1EC434B00075388D /* AppDelegate.m in Sources */,
+				CD862ADE1EC436020075388D /* ZHNTimer.m in Sources */,
 				CD862AAB1EC434B00075388D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
