@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD862AAB1EC434B00075388D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD862AAA1EC434B00075388D /* main.m */; };
+		CD862AAE1EC434B00075388D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD862AAD1EC434B00075388D /* AppDelegate.m */; };
+		CD862AB11EC434B00075388D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD862AB01EC434B00075388D /* ViewController.m */; };
+		CD862AB41EC434B00075388D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD862AB21EC434B00075388D /* Main.storyboard */; };
+		CD862AB61EC434B00075388D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD862AB51EC434B00075388D /* Assets.xcassets */; };
+		CD862AB91EC434B00075388D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD862AB71EC434B00075388D /* LaunchScreen.storyboard */; };
+		CD862AC41EC434B00075388D /* ZHNTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD862AC31EC434B00075388D /* ZHNTimerTests.m */; };
+		CD862ACF1EC434B00075388D /* ZHNTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD862ACE1EC434B00075388D /* ZHNTimerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD862AC01EC434B00075388D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD862A9E1EC434B00075388D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD862AA51EC434B00075388D;
+			remoteInfo = ZHNTimer;
+		};
+		CD862ACB1EC434B00075388D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD862A9E1EC434B00075388D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD862AA51EC434B00075388D;
+			remoteInfo = ZHNTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD862AA61EC434B00075388D /* ZHNTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHNTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD862AAA1EC434B00075388D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD862AAC1EC434B00075388D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD862AAD1EC434B00075388D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD862AAF1EC434B00075388D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD862AB01EC434B00075388D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD862AB31EC434B00075388D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD862AB51EC434B00075388D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD862AB81EC434B00075388D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD862ABA1EC434B00075388D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD862ABF1EC434B00075388D /* ZHNTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD862AC31EC434B00075388D /* ZHNTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNTimerTests.m; sourceTree = "<group>"; };
+		CD862AC51EC434B00075388D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD862ACA1EC434B00075388D /* ZHNTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD862ACE1EC434B00075388D /* ZHNTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNTimerUITests.m; sourceTree = "<group>"; };
+		CD862AD01EC434B00075388D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD862AA31EC434B00075388D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD862ABC1EC434B00075388D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD862AC71EC434B00075388D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD862A9D1EC434B00075388D = {
+			isa = PBXGroup;
+			children = (
+				CD862AA81EC434B00075388D /* ZHNTimer */,
+				CD862AC21EC434B00075388D /* ZHNTimerTests */,
+				CD862ACD1EC434B00075388D /* ZHNTimerUITests */,
+				CD862AA71EC434B00075388D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD862AA71EC434B00075388D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD862AA61EC434B00075388D /* ZHNTimer.app */,
+				CD862ABF1EC434B00075388D /* ZHNTimerTests.xctest */,
+				CD862ACA1EC434B00075388D /* ZHNTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD862AA81EC434B00075388D /* ZHNTimer */ = {
+			isa = PBXGroup;
+			children = (
+				CD862AAC1EC434B00075388D /* AppDelegate.h */,
+				CD862AAD1EC434B00075388D /* AppDelegate.m */,
+				CD862AAF1EC434B00075388D /* ViewController.h */,
+				CD862AB01EC434B00075388D /* ViewController.m */,
+				CD862AB21EC434B00075388D /* Main.storyboard */,
+				CD862AB51EC434B00075388D /* Assets.xcassets */,
+				CD862AB71EC434B00075388D /* LaunchScreen.storyboard */,
+				CD862ABA1EC434B00075388D /* Info.plist */,
+				CD862AA91EC434B00075388D /* Supporting Files */,
+			);
+			path = ZHNTimer;
+			sourceTree = "<group>";
+		};
+		CD862AA91EC434B00075388D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD862AAA1EC434B00075388D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD862AC21EC434B00075388D /* ZHNTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD862AC31EC434B00075388D /* ZHNTimerTests.m */,
+				CD862AC51EC434B00075388D /* Info.plist */,
+			);
+			path = ZHNTimerTests;
+			sourceTree = "<group>";
+		};
+		CD862ACD1EC434B00075388D /* ZHNTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD862ACE1EC434B00075388D /* ZHNTimerUITests.m */,
+				CD862AD01EC434B00075388D /* Info.plist */,
+			);
+			path = ZHNTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD862AA51EC434B00075388D /* ZHNTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD862AD31EC434B00075388D /* Build configuration list for PBXNativeTarget "ZHNTimer" */;
+			buildPhases = (
+				CD862AA21EC434B00075388D /* Sources */,
+				CD862AA31EC434B00075388D /* Frameworks */,
+				CD862AA41EC434B00075388D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHNTimer;
+			productName = ZHNTimer;
+			productReference = CD862AA61EC434B00075388D /* ZHNTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD862ABE1EC434B00075388D /* ZHNTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD862AD61EC434B00075388D /* Build configuration list for PBXNativeTarget "ZHNTimerTests" */;
+			buildPhases = (
+				CD862ABB1EC434B00075388D /* Sources */,
+				CD862ABC1EC434B00075388D /* Frameworks */,
+				CD862ABD1EC434B00075388D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD862AC11EC434B00075388D /* PBXTargetDependency */,
+			);
+			name = ZHNTimerTests;
+			productName = ZHNTimerTests;
+			productReference = CD862ABF1EC434B00075388D /* ZHNTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD862AC91EC434B00075388D /* ZHNTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD862AD91EC434B00075388D /* Build configuration list for PBXNativeTarget "ZHNTimerUITests" */;
+			buildPhases = (
+				CD862AC61EC434B00075388D /* Sources */,
+				CD862AC71EC434B00075388D /* Frameworks */,
+				CD862AC81EC434B00075388D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD862ACC1EC434B00075388D /* PBXTargetDependency */,
+			);
+			name = ZHNTimerUITests;
+			productName = ZHNTimerUITests;
+			productReference = CD862ACA1EC434B00075388D /* ZHNTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD862A9E1EC434B00075388D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhn;
+				TargetAttributes = {
+					CD862AA51EC434B00075388D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CD862ABE1EC434B00075388D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD862AA51EC434B00075388D;
+					};
+					CD862AC91EC434B00075388D = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD862AA51EC434B00075388D;
+					};
+				};
+			};
+			buildConfigurationList = CD862AA11EC434B00075388D /* Build configuration list for PBXProject "ZHNTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD862A9D1EC434B00075388D;
+			productRefGroup = CD862AA71EC434B00075388D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD862AA51EC434B00075388D /* ZHNTimer */,
+				CD862ABE1EC434B00075388D /* ZHNTimerTests */,
+				CD862AC91EC434B00075388D /* ZHNTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD862AA41EC434B00075388D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD862AB91EC434B00075388D /* LaunchScreen.storyboard in Resources */,
+				CD862AB61EC434B00075388D /* Assets.xcassets in Resources */,
+				CD862AB41EC434B00075388D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD862ABD1EC434B00075388D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD862AC81EC434B00075388D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD862AA21EC434B00075388D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD862AB11EC434B00075388D /* ViewController.m in Sources */,
+				CD862AAE1EC434B00075388D /* AppDelegate.m in Sources */,
+				CD862AAB1EC434B00075388D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD862ABB1EC434B00075388D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD862AC41EC434B00075388D /* ZHNTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD862AC61EC434B00075388D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD862ACF1EC434B00075388D /* ZHNTimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD862AC11EC434B00075388D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD862AA51EC434B00075388D /* ZHNTimer */;
+			targetProxy = CD862AC01EC434B00075388D /* PBXContainerItemProxy */;
+		};
+		CD862ACC1EC434B00075388D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD862AA51EC434B00075388D /* ZHNTimer */;
+			targetProxy = CD862ACB1EC434B00075388D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD862AB21EC434B00075388D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD862AB31EC434B00075388D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD862AB71EC434B00075388D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD862AB81EC434B00075388D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD862AD11EC434B00075388D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD862AD21EC434B00075388D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD862AD41EC434B00075388D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHNTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD862AD51EC434B00075388D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHNTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD862AD71EC434B00075388D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHNTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHNTimer.app/ZHNTimer";
+			};
+			name = Debug;
+		};
+		CD862AD81EC434B00075388D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHNTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHNTimer.app/ZHNTimer";
+			};
+			name = Release;
+		};
+		CD862ADA1EC434B00075388D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHNTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHNTimer;
+			};
+			name = Debug;
+		};
+		CD862ADB1EC434B00075388D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHNTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHNTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD862AA11EC434B00075388D /* Build configuration list for PBXProject "ZHNTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD862AD11EC434B00075388D /* Debug */,
+				CD862AD21EC434B00075388D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD862AD31EC434B00075388D /* Build configuration list for PBXNativeTarget "ZHNTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD862AD41EC434B00075388D /* Debug */,
+				CD862AD51EC434B00075388D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD862AD61EC434B00075388D /* Build configuration list for PBXNativeTarget "ZHNTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD862AD71EC434B00075388D /* Debug */,
+				CD862AD81EC434B00075388D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD862AD91EC434B00075388D /* Build configuration list for PBXNativeTarget "ZHNTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD862ADA1EC434B00075388D /* Debug */,
+				CD862ADB1EC434B00075388D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD862A9E1EC434B00075388D /* Project object */;
+}
